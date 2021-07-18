@@ -11,13 +11,24 @@ h1, h2, h3 {
     color:  #1c1c1c;
 }
 
+#b1 .teste1{
+    background-color: rgb(20, 20, 20);
+    width: 250px;
+    height: 80px
+}
+
+/* ESTILOS QUANDO A CLASSE DO BODY FOR .night */
+#b2 .teste1{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 80px
+}
+
 .botao{
-     color: #FFFFFF;
+     color: #00dbf8;
      text-decoration: none;
      padding: 10 px 30px;
-     background-color: #ff0000;
      font-size: .9em;
-     border-radius: 3px ;
 }
 
 /*navegação*/
@@ -108,14 +119,14 @@ header p{
 
 /*serviços*/
 
-#serviços{
+#Hobbies{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
 }
 
-#serviços div{
+#Hobbies div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,7 +149,7 @@ header p{
     width: 100%;
 }
 
-#contato{
+#redes-socias{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,7 +157,7 @@ header p{
     padding: 20px;
 }
 
-#contato h2 {
+#redes-sociais h2 {
     color: #000000;
 }
 
@@ -228,7 +239,7 @@ header{
          width: 33.3333333%;
      }
 
-     #contato {
+     #redes-sociais {
          flex-direction: row;
          flex-wrap: wrap;
          justify-content: space-around;
@@ -236,6 +247,6 @@ header{
          margin: 0 auto;
      }
 
-     #contato h2, #contato p {
+     #redes-sociais h2, #redes-sociais p {
          width: 100%;
      }
